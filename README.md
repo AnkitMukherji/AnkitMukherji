@@ -19,7 +19,7 @@ My GenomeIndia work connects variant processing and annotation with population-s
 ### Rare-disease transcriptomics
 I investigate the blood transcriptomic landscape of **Friedreich ataxia**, including disease-associated expression, pathways, co-expression networks, and clinical severity. Complementary work examines iPSC-derived cardiomyocytes at different maturation stages to explore heterogeneous cardiac involvement.
 
-My SCA12 research asks whether the **PPP2R2B repeat expansion** affects promoter selection, 5′ transcript architecture, and allele-specific expression. The public SCA12 repository currently documents clinical/genetic analysis and visualization; the isoform work is described in my CV.
+My SCA12 research asks whether the **PPP2R2B repeat expansion** affects promoter selection, 5′ transcript architecture, and allele-specific expression. The SCA12 repository now documents the clinical analysis scripts, reference-guided PPP2R2B transcript reconstruction, and an exploratory organoid single-cell workflow.
 
 **Explore:** [FRDA blood analysis](https://github.com/AnkitMukherji/FRDA_Analysis) · [FRDA cardiomyopathy](https://github.com/AnkitMukherji/FRDA_Cardiomyopathy_Analysis) · [SCA12 clinical genetics](https://github.com/AnkitMukherji/SCA12_Analysis)
 
