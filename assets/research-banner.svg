@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" role="img" aria-labelledby="title desc">
+<title id="title">Ankit Mukherjee · Computational Genomics</title>
+<desc id="desc">Research in human genetic variation, transcript regulation and disease biology, illustrated with transcript exon tracks.</desc>
+<defs><linearGradient id="bg" x2="1" y2=".7"><stop stop-color="#0c1730"/><stop offset="1" stop-color="#163c48"/></linearGradient><linearGradient id="accent"><stop stop-color="#61e7ca"/><stop offset="1" stop-color="#8bb9ff"/></linearGradient></defs>
+<rect width="1280" height="300" rx="18" fill="url(#bg)"/>
+<g fill="none" stroke="#94c9d3" opacity=".12"><path d="M760 0V300M850 0V300M940 0V300M1030 0V300M1120 0V300M1210 0V300"/><path d="M740 55H1280M740 115H1280M740 175H1280M740 235H1280"/></g>
+<rect x="54" y="51" width="44" height="5" rx="2.5" fill="#61e7ca"/>
+<text x="54" y="99" fill="#b0d9e4" font-family="Arial, sans-serif" font-size="16" letter-spacing="3">COMPUTATIONAL GENOMICS</text>
+<text x="51" y="159" fill="#f5f8fc" font-family="Arial, sans-serif" font-size="51" font-weight="700">Ankit Mukherjee</text>
+<text x="54" y="208" fill="#d0e2eb" font-family="Arial, sans-serif" font-size="21">Human variation · Transcript regulation · Disease biology</text>
+<text x="54" y="250" fill="#9cbdcc" font-family="Arial, sans-serif" font-size="16">Python  /  R &amp; Bioconductor  /  Bash  /  Scientific interpretation</text>
+<g stroke="url(#accent)" fill="none" stroke-width="2" opacity=".85"><path d="M817 104H1230M817 162H1230M817 220H1230"/><path d="M869 104Q918 44 968 104M869 162Q965 70 1061 162M978 220Q1073 114 1168 220" stroke-dasharray="3 5"/></g>
+<g fill="url(#accent)"><rect x="816" y="94" width="53" height="20" rx="4"/><rect x="968" y="94" width="82" height="20" rx="4"/><rect x="1130" y="94" width="69" height="20" rx="4"/><rect x="816" y="152" width="53" height="20" rx="4"/><rect x="1061" y="152" width="49" height="20" rx="4"/><rect x="1130" y="152" width="69" height="20" rx="4"/><rect x="837" y="210" width="65" height="20" rx="4"/><rect x="947" y="210" width="31" height="20" rx="4"/><rect x="1168" y="210" width="44" height="20" rx="4"/></g>
+</svg>

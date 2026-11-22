@@ -1,76 +1,72 @@
-# Ankit Mukherjee
-### Computational biologist · Population genomics · Disease transcriptomics
+![Ankit Mukherjee — Computational genomics](assets/research-banner.svg)
 
-**I connect genetic variation and gene expression with biological questions—through computation, statistical reasoning, and scientific interpretation.**
+<p align="center">
+  <a href="https://github.com/AnkitMukherji/CV"><b>Research CV</b></a> &nbsp; · &nbsp;
+  <a href="https://scholar.google.com/citations?user=2D5kUnQAAAAJ">Google Scholar</a> &nbsp; · &nbsp;
+  <a href="https://orcid.org/0009-0005-5847-5986">ORCID</a> &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/ankit-mukherjee-647ab81ba/">LinkedIn</a> &nbsp; · &nbsp;
+  <a href="mailto:ankit0204.am@gmail.com">Email</a>
+</p>
 
-I am a Project Research Scientist I at **CSIR–Institute of Genomics and Integrative Biology (CSIR-IGIB)**. My work spans population pharmacogenomics in GenomeIndia, the transcriptomic biology of Friedreich ataxia, and SCA12-associated transcript regulation.
+I am a **Project Research Scientist I at CSIR–Institute of Genomics and Integrative Biology (CSIR-IGIB)**. I study how human genetic variation and transcript regulation relate to health and disease, combining computational analysis with statistical reasoning and biological interpretation.
 
-[Research CV](https://github.com/AnkitMukherji/CV) · [Google Scholar](https://scholar.google.com/citations?user=2D5kUnQAAAAJ&hl=en) · [ORCID](https://orcid.org/0009-0005-5847-5986) · [LinkedIn](https://www.linkedin.com/in/ankit-mukherjee-647ab81ba/) · [Email](mailto:ankit0204.am@gmail.com)
+My research spans **GenomeIndia population pharmacogenomics**, **Friedreich ataxia transcriptomics**, and **PPP2R2B transcript regulation in SCA12**.
 
----
+## Publication highlight
 
-## Start here
+> ### GI-DB · Nucleic Acids Research
+> **Joint first author** · Published online **19 November 2026**
+>
+> **GI-DB: a comprehensive variant database for exploring the extensive genetic diversity of the Indian population.** Uppili B, Mukherjee A, et al. *Nucleic Acids Research*, gkag1179 (2026).
+>
+> A public resource for genetic variation across **9,768 whole genomes and 83 Indian populations**. My contributions included data curation, formal analysis, methodology, visualization and writing the original draft.
+>
+> [Read the paper](https://doi.org/10.1093/nar/gkag1179) &nbsp; · &nbsp; [Explore GI-DB](https://ibdc.dbt.gov.in/gidb/)
 
-| Research question or method | Where to look |
+## Research projects
+
+| Population variation & drug response | Transcript regulation & disease |
 | --- | --- |
-| How do pharmacogenomic variants and inferred metabolizer phenotypes vary across GenomeIndia populations? | [Population pharmacogenomics](https://github.com/AnkitMukherji/Medical_Relevance_GI) · [Consortium code fork](https://github.com/AnkitMukherji/Flagship-Paper-Codes) |
-| How can we compare candidate PPP2R2B transcript structures in SCA12? | [SCA12 overview](https://github.com/AnkitMukherji/SCA12_Analysis) · [Transcript reconstruction guides](https://github.com/AnkitMukherji/SCA12_Analysis/tree/main/scripts/isoform_analysis) |
-| How do blood expression and cardiac maturation relate to Friedreich ataxia? | [Blood transcriptomics](https://github.com/AnkitMukherji/FRDA_Analysis) · [Cardiomyocyte RNA-seq](https://github.com/AnkitMukherji/FRDA_Cardiomyopathy_Analysis) |
-| How do priors change the evidence for a shared genetic signal? | [Colocalisation examples](https://github.com/AnkitMukherji/statistical_genetics/tree/main/coloc) |
-| How do marker labels, classifiers and reference mapping compare in single-cell analysis? | [Single-cell workflow](https://github.com/AnkitMukherji/single_cell_analysis) · [Pancreas paper replication](https://github.com/AnkitMukherji/Paper_Replication) |
+| **GenomeIndia pharmacogenomics**<br>Variant annotation, population allele frequencies, pharmacogene haplotypes and predicted metabolizer phenotypes.<br><br>[Analysis code](https://github.com/AnkitMukherji/Medical_Relevance_GI) · [Phasing & imputation](https://github.com/AnkitMukherji/Phasing_Imputation) | **SCA12 and PPP2R2B**<br>Clinical phenotypes, short- and long-read transcript reconstruction, reference comparisons and exploratory organoid single-cell analysis.<br><br>[Project overview](https://github.com/AnkitMukherji/SCA12_Analysis) · [Transcript workflow guides](https://github.com/AnkitMukherji/SCA12_Analysis/tree/main/scripts/isoform_analysis) |
+| **Statistical genetics**<br>Bayesian colocalisation, allele and LD alignment, prior sensitivity and multiple-signal analyses.<br><br>[Worked analyses](https://github.com/AnkitMukherji/statistical_genetics/tree/main/coloc) | **Friedreich ataxia**<br>Blood expression, pathway activity and co-expression networks, alongside iPSC-derived cardiomyocyte maturation and cardiac-phenotype contrasts.<br><br>[Blood transcriptomics](https://github.com/AnkitMukherji/FRDA_Analysis) · [Cardiomyocyte RNA-seq](https://github.com/AnkitMukherji/FRDA_Cardiomyopathy_Analysis) |
 
-Each project overview explains the question, methods and interpretation. Folder guides show what each script consumes and produces, and where it fits in the analysis.
+### Single-cell methods and scientific replication
 
-## Research areas
+I compare marker-based annotation, classifiers and reference mapping across Python/scverse and R/Bioconductor workflows. My pancreas paper-replication project revisits published methods, compares a modern analysis route, and explores follow-up questions.
 
-### Population genomics and pharmacogenomics
-My GenomeIndia work connects variant processing and annotation with population-specific allele frequencies, pharmacogenomic haplotypes, and predicted metabolizer phenotypes. The interpretive question is how human genetic diversity can inform more representative precision-medicine research.
+[Single-cell workflows](https://github.com/AnkitMukherji/single_cell_analysis) · [Pancreas paper replication](https://github.com/AnkitMukherji/Paper_Replication)
 
-**Explore:** [Medical_Relevance_GI](https://github.com/AnkitMukherji/Medical_Relevance_GI) · [Phasing_Imputation](https://github.com/AnkitMukherji/Phasing_Imputation) · [GenomeIndia consortium code fork](https://github.com/AnkitMukherji/Flagship-Paper-Codes)
+## Technical practice
 
-### Rare-disease transcriptomics
-I investigate the blood transcriptomic landscape of **Friedreich ataxia**, including disease-associated expression, pathways, co-expression networks, and clinical severity. Complementary work examines iPSC-derived cardiomyocytes at different maturation stages to explore heterogeneous cardiac involvement.
-
-My SCA12 research asks whether the **PPP2R2B repeat expansion** affects promoter selection, 5′ transcript architecture, and allele-specific expression. The SCA12 repository now documents the clinical analysis scripts, reference-guided PPP2R2B transcript reconstruction, and an exploratory organoid single-cell workflow.
-
-**Explore:** [FRDA blood analysis](https://github.com/AnkitMukherji/FRDA_Analysis) · [FRDA cardiomyopathy](https://github.com/AnkitMukherji/FRDA_Cardiomyopathy_Analysis) · [SCA12 clinical and transcript analysis](https://github.com/AnkitMukherji/SCA12_Analysis)
-
-### Statistical and single-cell methods
-I develop my methodological practice through explicit, inspectable analyses: colocalisation and prior sensitivity, single-cell preprocessing and annotation, and comparisons between published and modern analysis workflows.
-
-**Explore:** [Statistical genetics](https://github.com/AnkitMukherji/statistical_genetics) · [Single-cell analysis](https://github.com/AnkitMukherji/single_cell_analysis) · [Paper replication](https://github.com/AnkitMukherji/Paper_Replication)
-
-## Technical range
-
-| Area | Tools and practice |
+| Computation | Analysis & interpretation |
 | --- | --- |
-| Programming | Python, R/Bioconductor, Bash, Perl |
-| Human genomics | Variant processing, functional annotation, population comparisons, pharmacogenomic evidence integration, phasing/imputation |
-| Transcriptomics | Bulk and single-cell RNA-seq, differential expression, pathway enrichment, WGCNA, phenotype associations |
-| Statistical interpretation | Model-design checks, confounding assessment, effect sizes, prior sensitivity, distinction between association and mechanism |
-| Research computing | HPC, SLURM, Git, Conda/Bioconda, renv, Docker, Singularity |
-| Communication | Scientific figures, annotated analysis, conference presentations, and research mentorship |
+| **Python · R/Bioconductor · Bash · Perl**<br>Scientific computing, biological file processing and visualization | **Population and medical genomics**<br>Variant harmonization, functional annotation, pharmacogenomic evidence and haplotype methods |
+| **HPC · SLURM · Git · Conda · renv**<br>Research computing, version control and environment management | **Bulk and single-cell transcriptomics**<br>Differential expression, pathway enrichment, WGCNA and clinical associations |
+| **Docker · Singularity**<br>Container-based research environments | **Statistical reasoning**<br>Study design, confounding, effect sizes, uncertainty and model assumptions |
+
+I start with the biological question and study design, inspect data quality and technical structure, and connect effect sizes and uncertainty to the phenotype. My project READMEs explain the scientific scope and reproduction requirements. Folder guides document individual scripts, inputs, outputs and workflow order.
 
 ## Computational foundations
 
-My earlier and continuing work makes the underlying methods visible:
+| Collection | What it explores |
+| --- | --- |
+| [Bioinformatics algorithms](https://github.com/AnkitMukherji/Bioinformatics-Algorithms) | Replication-origin patterns, motif discovery and assembly graphs |
+| [DNA sequencing algorithms](https://github.com/AnkitMukherji/Algorithms-for-DNA-Sequencing) | Read matching, dynamic-programming alignment, overlaps and assembly |
+| [Python for genomics](https://github.com/AnkitMukherji/Python-for-Genomics) · [Perl structural bioinformatics](https://github.com/AnkitMukherji/Perl-Codes) | Sequence handling, file parsing and molecular geometry |
+| [Viral protein evolution](https://github.com/AnkitMukherji/mutations_virus) | MSc dissertation work on sequence-derived substitution matrices |
+| [Life-science statistics](https://github.com/AnkitMukherji/Data_Analysis_for_Life_Sciences) · [Mathematics for machine learning](https://github.com/AnkitMukherji/Machine_Learning) | Statistical inference, linear algebra and optimization |
 
-- [Bioinformatics algorithms](https://github.com/AnkitMukherji/Bioinformatics-Algorithms): motifs, replication-origin patterns, assembly graphs.
-- [DNA sequencing algorithms](https://github.com/AnkitMukherji/Algorithms-for-DNA-Sequencing): matching, alignment, overlaps, assembly.
-- [Python for genomics](https://github.com/AnkitMukherji/Python-for-Genomics) and [Perl structural bioinformatics](https://github.com/AnkitMukherji/Perl-Codes): sequence handling and molecular geometry.
-- [Viral protein evolution](https://github.com/AnkitMukherji/mutations_virus): MSc dissertation work on sequence-derived substitution matrices.
-- [Life-science statistics](https://github.com/AnkitMukherji/Data_Analysis_for_Life_Sciences) and [mathematics for machine learning](https://github.com/AnkitMukherji/Machine_Learning): the foundations behind applied analysis.
+<details>
+<summary><b>Consortium code, reference collections and research communication</b></summary>
 
-## Teaching and reference collections
+- [GenomeIndia consortium code fork](https://github.com/AnkitMukherji/Flagship-Paper-Codes) preserves the upstream contributors' authorship and analysis context.
+- [Spatial transcriptomics resources](https://github.com/AnkitMukherji/awesome-spatial-transcriptomics), [bioinformatics curriculum](https://github.com/AnkitMukherji/bioinformatics_courses) and [learning resources](https://github.com/AnkitMukherji/learning-bioinformatics-at-home) are attributed upstream forks.
+- [Conference poster and contact card](https://github.com/AnkitMukherji/ankit-research-contact-card) connects the research presentation with downloadable material and academic profiles.
 
-[Course curriculum fork](https://github.com/AnkitMukherji/bioinformatics_courses) · [Bioinformatics learning resources fork](https://github.com/AnkitMukherji/learning-bioinformatics-at-home) · [Spatial transcriptomics resource fork](https://github.com/AnkitMukherji/awesome-spatial-transcriptomics) · [Research poster and contact card](https://github.com/AnkitMukherji/ankit-research-contact-card)
-
-## How I approach a biological result
-
-Start with the biological question and study design. Inspect data quality, technical structure, and model assumptions. Connect effect sizes and uncertainty to the phenotype. Use enrichment, networks, and predictive models to generate testable hypotheses, with a clear account of what the evidence supports.
-
-Repository READMEs identify the scientific scope, expected inputs, and current reproduction requirements. Research analyses, methodological exercises, and attributed upstream forks each have a clear role in this portfolio.
+</details>
 
 ---
 
-**Background:** MSc Bioinformatics, Savitribai Phule Pune University; BSc Microbiology, University of Calcutta. See my [CV](https://github.com/AnkitMukherji/CV) for publications, experience, awards, and mentorship.
+**MSc Bioinformatics**, Savitribai Phule Pune University · **BSc Microbiology**, University of Calcutta
+
+Research mentorship, conference presentations, publications and professional experience are documented in my [CV](https://github.com/AnkitMukherji/CV).
